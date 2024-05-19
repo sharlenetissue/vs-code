@@ -1,0 +1,110 @@
+/* body */
+body {
+    background-color: #EBEAAE;
+    line-height: 0.5;
+    text-align: left;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;   
+}
+
+/* top navigation */
+.topnav {
+    overflow: hidden;
+    background-color: #7FCBA0;    
+}
+    .topnav a {
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    line-height: 1.5;
+    text-decoration: none;
+    float: right;
+}
+    .topnav a:hover {
+    background-color: #639A7B;
+}
+
+
+/* about me */
+#aboutme img{
+    height: 500px;
+    width: 500px;
+    object-fit: cover;
+    object-position: bottom;
+    margin-left: 20%;}
+    
+    #aboutme table{
+    flex: 10%
+}
+
+/* contact me */
+#contactme {
+    overflow: hidden;
+    background-color: #7FCBA0; 
+}
+
+    #contactme img{
+    object-fit: contain;
+    height: 100px;  
+    padding-left: 10px;
+}
+
+    #contactme table{
+    margin: auto;
+}
+
+    #contactme td{
+    font-size: 25px;
+
+}
+    #contactme a {
+    text-decoration: none;
+    color: rgb(52, 44, 44);
+}
+    #contactme a:hover{
+    color: black;
+}
+
+/* achivements*/
+#achievements {
+    margin-top: 450px;
+}
+
+	#achievements h3,h2{
+    text-align: center;
+    line-height: normal;
+    padding-bottom: 10px;
+}
+
+	#achievements p{
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+	#achievements h4{
+    text-align: center;
+}
+
+
+
+/* gallery */
+div.gallery {
+margin: 10px;
+border: 1px solid #ccc;
+float: left;
+width: 470px;
+}
+
+    div.gallery img {
+	width: 470px;
+	height: 300px;
+	object-fit: cover;
+}
+
+    div.desc {
+	padding: 15px;
+	text-align: center;
+	height:30px;
+	line-height: normal;
+}
+
