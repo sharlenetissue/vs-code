@@ -92,11 +92,11 @@ div.gallery {
 margin: 10px;
 border: 1px solid #ccc;
 float: left;
-width: 470px;
+width: 440px;
 }
 
     div.gallery img {
-	width: 470px;
+	width: 440px;
 	height: 300px;
 	object-fit: cover;
 }
